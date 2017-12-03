@@ -1,0 +1,25 @@
+nav {
+  float: left;
+  a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    padding: 0 5px  ;
+    line-height: 70px;
+    &:hover {
+      color: #ffac55;
+    }
+    &.active {
+      color: #ffac55;
+    }
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.logo-holder {
+  float: left;
+}
